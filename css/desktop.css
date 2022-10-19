@@ -1,0 +1,87 @@
+nav {
+  padding: 0 1rem 4.8rem 1rem;
+}
+.hamburger {
+  display: none;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  justify-content: space-between;
+}
+
+.nav-menu-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.nav-menu-ul a {
+  text-decoration: none;
+}
+
+.linksa{
+  color: black;
+}
+
+.linksb {
+  color: red;
+}
+
+.links{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 1rem 1.2rem;
+}
+.main_program{
+  background-color: rgb(84, 81, 81);
+  border-color: gray;
+  border-width:8rem;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.main_program img {
+  height: 8rem;
+  width: 8rem;
+}
+.program_card {
+  border-color: rgb(75, 75, 75);
+  border-width: .5rem;
+  border-style: solid;
+  text-align: center;
+}
+
+.main_program_desktop {
+  display: block;
+  width: 100%;
+}
+.main_program_mobile {
+  display: none;
+}
+.join{
+  display: flex;
+  flex-direction: column;
+}
+.img_join{
+  display: flex;
+  flex-direction: row;
+}
+.img_join img{
+  width: 50%;
+}
+.images_last_events{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.images_last_events img{
+  width: 150%;
+  margin: 2rem;
+}
