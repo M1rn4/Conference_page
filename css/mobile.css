@@ -4,28 +4,33 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   background: white;
-
 }
 
-main{
+main {
   margin-left: 5rem;
   margin-right: 5rem;
 }
-footer{
+
+footer {
   margin-left: 5rem;
   margin-right: 5rem;
 }
+
 .logo {
-  width:10vh ;
+  width: 10vh;
 }
+
 .nav-menu {
   display: none;
 }
+
 .menu-mobile {
   position: fixed;
   z-index: 100;
@@ -42,6 +47,7 @@ footer{
   mix-blend-mode: multiply;
   backdrop-filter: blur(10px);
 }
+
 .menu-mobile a {
   font-weight: 600;
   font-size: 3.2rem;
@@ -58,9 +64,11 @@ footer{
 .menu-mobile li {
   margin-bottom: 4rem;
 }
+
 .hidden {
   display: none;
 }
+
 .close-icon-visible {
   display: flex;
   flex-direction: row;
@@ -68,9 +76,11 @@ footer{
   color: white;
   width: 90%;
 }
+
 .links {
   text-decoration: none;
 }
+
 .button {
   padding: 1.2rem;
   margin: 2.4rem 0;
@@ -107,35 +117,40 @@ footer{
   border-style: solid;
 }
 
-h1{
+h1 {
   color: red;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 3.5rem;
 }
-h2{
+
+h2 {
   color: rgb(159, 65, 65);
   margin-bottom: 1rem;
   margin-top: 1rem;
-  font-weight:700;
+  font-weight: 700;
   font-size: 3rem;
 }
-.presentation{
+
+.presentation {
   margin-left: 5rem;
   margin-right: 5rem;
 }
-h3{
+
+h3 {
   color: orangered;
   font-weight: 500;
   font-size: 2rem;
 }
-p{
+
+p {
   margin-bottom: 1rem;
   margin-top: 1rem;
   font-weight: 500;
   font-size: 1.5rem;
 }
+
 .parr_program {
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -149,32 +164,36 @@ p{
   color: black;
 }
 
-.main_program{
+.main_program {
   background-color: rgb(84, 81, 81);
   border-color: gray;
-  border-width:2rem;
+  border-width: 2rem;
   border-style: solid;
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
 }
+
 .main_program img {
   height: 5rem;
   width: 5rem;
 }
+
 .program_card {
   border-color: white;
-  border-width: .5rem;
+  border-width: 0.5rem;
   border-style: solid;
   text-align: center;
 }
-.main_program_button{
+
+.main_program_button {
   background-color: rgb(84, 81, 81);
   border-color: gray;
-  border-width:2rem;
+  border-width: 2rem;
   border-style: solid;
   align-content: center;
 }
+
 .link_program {
   background-color: gray;
   border-width: 2rem;
@@ -185,33 +204,40 @@ p{
   font-size: 2rem;
 }
 
-.link_program a{ 
+.link_program a {
   text-decoration: none;
   color: #fff;
 }
+
 .main_program_desktop {
   display: none;
 }
+
 .main_program_mobile {
   display: block;
   width: 100%;
 }
-.join{
+
+.join {
   display: flex;
   flex-direction: row;
 }
-.img_join img{
+
+.img_join img {
   width: 100%;
 }
-.images_last_events{
+
+.images_last_events {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.images_last_events img{
+
+.images_last_events img {
   width: 95%;
   margin: 2rem;
 }
-.partners{
+
+.partners {
   width: 100%;
 }

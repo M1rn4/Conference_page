@@ -1,9 +1,11 @@
 nav {
   padding: 0 1rem 4.8rem 1rem;
 }
+
 .hamburger {
   display: none;
 }
+
 .nav-menu {
   display: flex;
   flex-direction: row;
@@ -23,7 +25,7 @@ nav {
   text-decoration: none;
 }
 
-.linksa{
+.linksa {
   color: black;
 }
 
@@ -31,29 +33,32 @@ nav {
   color: red;
 }
 
-.links{
+.links {
   font-style: normal;
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
   padding: 1rem 1.2rem;
 }
-.main_program{
+
+.main_program {
   background-color: rgb(84, 81, 81);
   border-color: gray;
-  border-width:8rem;
+  border-width: 8rem;
   border-style: solid;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
+
 .main_program img {
   height: 8rem;
   width: 8rem;
 }
+
 .program_card {
   border-color: rgb(75, 75, 75);
-  border-width: .5rem;
+  border-width: 0.5rem;
   border-style: solid;
   text-align: center;
 }
@@ -62,26 +67,32 @@ nav {
   display: block;
   width: 100%;
 }
+
 .main_program_mobile {
   display: none;
 }
-.join{
+
+.join {
   display: flex;
   flex-direction: column;
 }
-.img_join{
+
+.img_join {
   display: flex;
   flex-direction: row;
 }
-.img_join img{
+
+.img_join img {
   width: 50%;
 }
-.images_last_events{
+
+.images_last_events {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.images_last_events img{
+
+.images_last_events img {
   width: 150%;
   margin: 2rem;
 }
