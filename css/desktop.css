@@ -21,7 +21,6 @@ footer {
   flex-direction: row;
   gap: 0.8rem;
   justify-content: space-between;
-  margin-left: 10rem;
   margin-right: 20rem;
 }
 
@@ -34,6 +33,7 @@ footer {
 
 .nav-menu-ul a {
   text-decoration: none;
+  width: 60vh;
 }
 
 .linksa {
