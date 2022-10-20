@@ -11,14 +11,25 @@
 <body>
   <header>
     <nav class="menu">
-      <a href="#" id="button-hamburger"><img src="./image/Hamburger.png" class="hamburger" alt="Navigation menu"></a>
+      <div class="media">
+        <ul>
+          <li><img src="./javascript/images/facebook.png" alt=""></li>
+          <li><img src="./javascript/images/twitter.png" alt=""></li>
+          <li><h5>English</h5></li>
+        </ul>
+      </div>
+      <div class="menu_logo">
+        <a href="#" id="button-hamburger"><img src="./image/Hamburger.png" class="hamburger" alt="Navigation menu"></a>
+        <a href="./index.html"><img class="logo" src="./javascript/Hakacton.png" alt="logo"></a>
+      </div>
       <div class="nav-menu" id="navbar-options">
+        <a href="./index.html"><img class="logo1" id="logo1" src="./javascript/Hakacton.png" alt="logo"></a>
         <div class="hidden" id="x">
-          <img class="logo" src="./javascript/Hakacton.png" alt="logo">
+          <a href="./index.html"><img class="logo1" src="./javascript/Hakacton.png" alt="logo"></a>
           <a href="#" class="links">X</a>
         </div>
         <ul class="nav-menu-ul">
-          <li class="links" id="links-a"><a class="linksb" href="#About">About</a></li>
+          <li class="links" id="links-a"><a class="linksb" href="./about_page.html">About</a></li>
           <li class="links" id="links-p"><a class="linksa" href="#Program">Program</a></li>
           <li class="links" id="links-j"><a class="linksa" href="#Join">Join</a></li>
           <li class="links" id="links-s"><a class="linksa"  href="#Sponsor">Sponsor</a></li>
@@ -39,7 +50,7 @@
            Are you ready for the challenge?</p>
       </div>
     </div>
-      <section class="About" id="About">
+      <!-- <section class="About" id="About">
         <div class="presentation">
           <div>
             <p class="parr_about">
@@ -49,7 +60,7 @@
               different projects.
             </p>
           </div>
-          <a href="./index.html"><img class="logo" src="./javascript/Hakacton.png" alt="logo"></a>   
+          <a href="./index.html"><img class="logo2" src="./javascript/Hakacton.png" alt="logo"></a>   
         </div>
         <div class="last_events">
           <h3>Check our other programs</h3>
@@ -59,14 +70,12 @@
             <img class="img_event" src="./image/event_2.png" alt="Event 2022">
           </div>
         </div>
-      </section>
+      </section> -->
       <section id="Programs" >
-        <img class="main_program_desktop" src="./image/desktop/main_program_:desktop.png" alt="Main Program">
-        <img class="main_program_mobile" src="./image/mobile/Captura de pantalla de 2022-10-19 10-04-47.png" alt="Main Program">
-        <!-- <div id="Program" class="main_program"></div>
+        <div id="Program" class="main_program"></div>
         <div class="link_program">
           <a href="#">See all the program</a>
-        </div> -->
+        </div>
       </section>
       <section class="Join" id="Join">
         <h3>Featured speakers</h3>
@@ -89,7 +98,7 @@
     <p>@peru</p>
   </footer>    
   <script src="./javascript/mobile_menu.js"></script> 
-  <!-- <script src="./javascript/main_program.js"></script> -->
+  <script src="./javascript/main_program.js"></script>
   <script src="./javascript/features_speakers.js"></script>
 </body>
 </html>

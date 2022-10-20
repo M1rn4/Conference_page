@@ -4,66 +4,75 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Page</title>
+  <title>About program</title>
   <link rel="stylesheet" href="./css/mobile.css" />
-  <link rel="stylesheet" href="./css/desktop.css" />
+  <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 768px)" />
 </head>
 <body>
   <header>
     <nav class="menu">
-      <a href="./index.html">logo</a>
-      <a href="#" class="hamburger" id="button-hamburger"><img src="./image/mobile/hamburger.png" alt="Navigation menu"></a>
+      <div class="media">
+        <ul>
+          <li><img src="./javascript/images/facebook.png" alt=""></li>
+          <li><img src="./javascript/images/twitter.png" alt=""></li>
+          <li><h5>English</h5></li>
+        </ul>
+      </div>
+      <div class="menu_logo">
+        <a href="#" id="button-hamburger"><img src="./image/Hamburger.png" class="hamburger" alt="Navigation menu"></a>
+        <a href="./index.html"><img class="logo" src="./javascript/Hakacton.png" alt="logo"></a>
+      </div>
       <div class="nav-menu" id="navbar-options">
+        <a href="./index.html"><img class="logo1" id="logo1" src="./javascript/Hakacton.png" alt="logo"></a>
         <div class="hidden" id="x">
+          <a href="./index.html"><img class="logo" src="./javascript/Hakacton.png" alt="logo"></a>
           <a href="#" class="links">X</a>
         </div>
         <ul class="nav-menu-ul">
-          <li class="links2" id="links-p"><a href="./about_page.html">About</a></li>
-          <li class="links" id="links-a"><a href="#Program">Program</a></li>
-          <li class="links" id="links-c"><a href="#Join">Join</a></li>
-          <li class="links" id="links-c"><a href="#Sponsor">Sponsor</a></li>
-          <li class="links" id="links-c"><a href="#New">News</a></li>
-          <li class="links2" id="links-c"><button href="#Compaign">CC Compaign</button></li>
-        </ul>          
+          <li class="links" id="links-a"><a class="linksb" href="./about_page.html">About</a></li>
+          <li class="links" id="links-p"><a class="linksa" href="#Program">Program</a></li>
+          <li class="links" id="links-j"><a class="linksa" href="#Join">Join</a></li>
+          <li class="links" id="links-s"><a class="linksa"  href="#Sponsor">Sponsor</a></li>
+          <li class="links" id="links-n"><a class="linksa" href="#New">News</a></li>
+          <li class="links" id="links-b"><button href="#Compaign" class="linksb">CC Compaign</button></li>
+        </ul>  
+        </div>
       </div>
-    </nav>  
+    </nav>    
   </header>
   <main>
-     <section class="welcome">
-        <h2>"Hello! Sharing world"</h2>
-        <h1>CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
-        <div>
-          <p>This program is very important bla bla bla</p>
-        </div>
-        <p>Please contact us per email for any questions about the program <a href="#">hpph@hgl.com</a></p>
-      </section>
-      <section class="presentation">
-        <h4>Program</h4>
-        <p>we decide this logo 10/09/2022, because we consider that it is a really good idea</p>
-        <a href="#" class="logo">Logo</a>          
-      </section>
-      <section class="last_events">
-        <h4>Check our other programs</h4>
-        <p>it is the third edition, you can check information about the last events in the next links:</p>
-        <a href="#"><img src="" alt="Event of 2021"></a>
-        <a href="#"><img src="" alt="Event 2022"></a>
-      </section>
-      <section class="partners">
-        <h5>Partner</h5>
-        <ul>
+    <div class="welcome">
+      <h2>"Hello! innovator"</h2>
+      <h1>HACKATON FINTECH 2022</h1>
+      <p class="parr_about">
+        The Hackaton Fintech edition 3, es the most important
+        event about fintech in the country and south America,
+        there are a lot of prizes, help after the event by the
+        different projects.
+      </p>
+    </div>
+    <div class="images_last_events">
+      <img class="img_event" src="./image/event_1.png" alt="Event of 2021">
+      <img class="img_event" src="./image/event_2.png" alt="Event 2022">
+    </div>
+      <section class="Sponsor" id="Sponsor">
+        <h3>Partner</h3>
+        <img class="partners" src="./javascript/partners_mobile.png" alt="">
+        <!-- <ul>
           <li class="partner">mozilla</li>
-          <li>Google</li>
-          <li>Naver</li>
-          <li>daumkako</li>
-          <li>airbnb</li>
-        </ul>            
+          <li class="partner">Google</li>
+          <li class="partner">Naver</li>
+          <li class="partner">daumkako</li>
+          <li class="partner">airbnb</li>
+        </ul>  -->
       </section>
-  </main>  
+  </main>
   <footer>
-    <h6>@Create event peru</h6>
-    <p>2022 creative event of peru-lima</p>
-  </footer>
-   
+    <h4>2022.10.25(THU) - 27(FRI)</h4>
+    <p>@peru</p>
+  </footer>    
+  <script src="./javascript/mobile_menu.js"></script> 
+  <script src="./javascript/main_program.js"></script>
+  <script src="./javascript/features_speakers.js"></script>
 </body>
-
 </html>

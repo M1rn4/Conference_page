@@ -2,7 +2,17 @@ nav {
   padding: 0 1rem 4.8rem 1rem;
 }
 
-.hamburger {
+main {
+  margin-left: 2rem;
+  margin-right: 10rem;
+}
+
+footer {
+  margin-left: 2rem;
+  margin-right: 10rem;
+}
+
+.menu_logo {
   display: none;
 }
 
@@ -11,6 +21,8 @@ nav {
   flex-direction: row;
   gap: 0.8rem;
   justify-content: space-between;
+  margin-left: 10rem;
+  margin-right: 20rem;
 }
 
 .nav-menu-ul {
@@ -18,7 +30,6 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 1rem;
 }
 
 .nav-menu-ul a {
@@ -44,11 +55,24 @@ nav {
 .main_program {
   background-color: rgb(84, 81, 81);
   border-color: gray;
-  border-width: 8rem;
+  border-width: 2rem;
   border-style: solid;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 105%;
+}
+
+.link_program {
+  background-color: gray;
+  border-width: 2rem;
+  border-style: solid;
+  color: gray;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-right: 5rem;
+  width: 105%;
 }
 
 .main_program img {
@@ -61,6 +85,7 @@ nav {
   border-width: 0.5rem;
   border-style: solid;
   text-align: center;
+  width: fit-content;
 }
 
 .main_program_desktop {
@@ -77,13 +102,18 @@ nav {
   flex-direction: column;
 }
 
+.join h3 {
+  margin-top: 2rem;
+}
+
 .img_join {
   display: flex;
   flex-direction: row;
 }
 
-.img_join img {
-  width: 50%;
+.card_speaker img {
+  width: max-content;
+  height: max-content;
 }
 
 .images_last_events {
@@ -95,4 +125,19 @@ nav {
 .images_last_events img {
   width: 150%;
   margin: 2rem;
+}
+
+.partners {
+  width: 105%;
+}
+
+.nav-menu img {
+  display: block;
+}
+
+.text_speakers {
+  text-align: left;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  justify-content: flex-start;
 }

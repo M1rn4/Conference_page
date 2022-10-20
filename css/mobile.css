@@ -15,16 +15,33 @@ body {
 
 main {
   margin-left: 5rem;
-  margin-right: 5rem;
+  margin-right: 20rem;
 }
 
 footer {
   margin-left: 5rem;
-  margin-right: 5rem;
+  margin-right: 20rem;
 }
 
-.logo {
+.menu_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  align-items: baseline;
+}
+
+.menu_logo img {
   width: 10vh;
+}
+
+.logo1 {
+  width: 15vh;
+}
+
+.logo2 {
+  width: 80vh;
 }
 
 .nav-menu {
@@ -38,8 +55,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #f4f4f4;
-  opacity: 99%;
+  background-color: rgba(255, 255, 255, 0.99);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -77,8 +93,35 @@ footer {
   width: 90%;
 }
 
+.nav-menu img {
+  display: none;
+}
+
+.close-icon-visible img {
+  display: block;
+}
+
 .links {
   text-decoration: none;
+}
+
+.links a {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.links button {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul {
+  margin-top: 3rem;
 }
 
 .button {
@@ -141,14 +184,28 @@ h2 {
 h3 {
   color: orangered;
   font-weight: 500;
+  font-size: 2.5rem;
+  border: #fff;
+  border-width: 2rem;
+  border-style: solid;
+}
+
+h4 {
+  font-weight: 500;
   font-size: 2rem;
+}
+
+h5 {
+  color: orangered;
+  font-weight: 500;
+  font-size: 2.5rem;
 }
 
 p {
   margin-bottom: 1rem;
   margin-top: 1rem;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .parr_program {
@@ -223,8 +280,9 @@ p {
   flex-direction: row;
 }
 
-.img_join img {
+.card_speaker img {
   width: 100%;
+  height: 100%;
 }
 
 .images_last_events {
@@ -240,4 +298,41 @@ p {
 
 .partners {
   width: 100%;
+  height: 60%;
+}
+
+.card_speaker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.text_speakers {
+  text-align: left;
+  margin-left: 3rem;
+}
+
+.media {
+  background: black;
+  color: white;
+}
+
+.media ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: baseline;
+}
+
+.media li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.media h5 {
+  color: white;
 }
