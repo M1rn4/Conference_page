@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <nav class="menu">
+    <nav class="menu" >
       <div class="media">
         <ul>
           <li><img src="./javascript/images/facebook.png" alt=""></li>
@@ -41,13 +41,19 @@
     </nav>    
   </header>
   <main>
-    <div class="welcome">
-      <h2>"Hello! innovator"</h2>
-      <h1>HACKATON FINTECH 2022</h1>
+    <div class="welcome" id="start">
+      <div class="hello_w">
+        <span class="hello">"Hello! innovator"</span>
+        <h1>HACKATON FINTECH 2022</h1>
+      </div>
       <div class="message">
          <p>It is the third edition of the most important hackaton of fintech in Perú,
            you and your team could create new project wich help to the finantial world, 
            Are you ready for the challenge?</p>
+      </div>
+      <div class="info">
+        <p>2022.10.25(THU) - 27(FRI)</p>
+        <p>@peru</p>
       </div>
     </div>
       <!-- <section class="About" id="About">
@@ -72,30 +78,33 @@
         </div>
       </section> -->
       <section id="Programs" >
+        <div class="link_program">
+          <h3>Main Program</h3>
+        </div>
         <div id="Program" class="main_program"></div>
         <div class="link_program">
-          <a href="#">See all the program</a>
+          <button class="program_button" href="#start">See all the program Hackaton Fintech 2022</button>
         </div>
       </section>
       <section class="Join" id="Join">
-        <h3>Featured speakers</h3>
+        <h2 class="title_spk" id="title1">Featured speakers</h2>
         <div class="speakers" id="speakers"></div>
+        <div id="more_less"></div>
       </section>
       <section class="Sponsor" id="Sponsor">
-        <h3>Partner</h3>
-        <img class="partners" src="./javascript/partners_mobile.png" alt="">
-        <!-- <ul>
+        <h2 class="h2-parner">Partners</h2>
+        <ul>
           <li class="partner">mozilla</li>
           <li class="partner">Google</li>
           <li class="partner">Naver</li>
           <li class="partner">daumkako</li>
           <li class="partner">airbnb</li>
-        </ul>  -->
+          <li class="partner">Microverse</li>
+        </ul> 
       </section>
   </main>
   <footer>
-    <h4>2022.10.25(THU) - 27(FRI)</h4>
-    <p>@peru</p>
+    <p>@Q2022 @HF2</p>
   </footer>    
   <script src="./javascript/mobile_menu.js"></script> 
   <script src="./javascript/main_program.js"></script>

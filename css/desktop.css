@@ -1,15 +1,22 @@
-nav {
-  padding: 0 1rem 4.8rem 1rem;
+.welcome {
+  background: url(main_big.png);
+  background-size: auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
-main {
-  margin-left: 2rem;
-  margin-right: 10rem;
+.hello_w {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  margin: auto auto auto;
+  padding-top: 7rem;
 }
 
-footer {
-  margin-left: 2rem;
-  margin-right: 10rem;
+.hello {
+  color: rgb(239, 81, 60);
+  line-height: 2rem;
 }
 
 .menu_logo {
@@ -21,7 +28,7 @@ footer {
   flex-direction: row;
   gap: 0.8rem;
   justify-content: space-between;
-  margin-right: 20rem;
+  background-color: white;
 }
 
 .nav-menu-ul {
@@ -33,15 +40,14 @@ footer {
 
 .nav-menu-ul a {
   text-decoration: none;
-  width: 60vh;
 }
 
 .linksa {
-  color: black;
+  color: #272a31;
 }
 
 .linksb {
-  color: red;
+  color: #ec5242;
 }
 
 .links {
@@ -53,39 +59,14 @@ footer {
 }
 
 .main_program {
-  background-color: rgb(84, 81, 81);
-  border-color: gray;
-  border-width: 2rem;
-  border-style: solid;
-  display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 105%;
-}
-
-.link_program {
-  background-color: gray;
-  border-width: 2rem;
-  border-style: solid;
-  color: gray;
-  text-align: center;
-  font-weight: 600;
-  font-size: 2rem;
-  margin-right: 5rem;
-  width: 105%;
-}
-
-.main_program img {
-  height: 8rem;
-  width: 8rem;
 }
 
 .program_card {
-  border-color: rgb(75, 75, 75);
-  border-width: 0.5rem;
-  border-style: solid;
-  text-align: center;
-  width: fit-content;
+  width: 19.9%;
+  gap: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .main_program_desktop {
@@ -102,18 +83,14 @@ footer {
   flex-direction: column;
 }
 
-.join h3 {
-  margin-top: 2rem;
-}
-
-.img_join {
+.img_join_1 {
   display: flex;
   flex-direction: row;
 }
 
-.card_speaker img {
-  width: max-content;
-  height: max-content;
+.img_join_2 {
+  display: flex;
+  flex-direction: row;
 }
 
 .images_last_events {
@@ -137,7 +114,35 @@ footer {
 
 .text_speakers {
   text-align: left;
-  margin-left: 3rem;
-  margin-right: 3rem;
   justify-content: flex-start;
+}
+
+.media {
+  display: block;
+  background: #272a31;
+  color: white;
+}
+
+.media ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: baseline;
+}
+
+.media li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.media h5 {
+  color: white;
+}
+
+.info {
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: black;
+  text-align: center;
 }

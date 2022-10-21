@@ -25,29 +25,30 @@ const speaker = {
 
 // eslint-disable-next-line camelcase
 const speakers_join = document.querySelector('#speakers');
-// eslint-disable-next-line no-restricted-syntax, no-plusplus, no-const-assign, no-console
-console.log('hola');
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i < (speaker.id.length) / 2; i++) {
-  // eslint-disable-next-line no-console, no-unused-vars
-  speakers_join.innerHTML += `
-  <div class="img_join" id="${speaker.id[i * 2]}">
-    <div class="card_speaker">
-      <img src="${speaker.img[i * 2]}" alt="${speaker.description_icon[i * 2]}">
-      <div class="text_speakers">
-        <h4>${speaker.name[i * 2]}</h4>
-        <h3>${speaker.description[i * 2]}</h3>
-        <p>${speaker.text[i * 2]}</p>    
-      </div>
-    </div>
-    <div class="card_speaker">
-      <img src="${speaker.img[i * 2 + 1]}" alt="${speaker.description_icon[i * 2 + 1]}">
-      <div class="text_speakers">
-        <h4>${speaker.name[i * 2 + 1]}</h4>
-        <h3>${speaker.description[i * 2 + 1]}</h3>
-        <p>${speaker.text[i * 2 + 1]}</p>   
-      </div>
-    </div>
-  </div>
-  `;
+// eslint-disable-next-line no-unused-vars, camelcase
+function speakers_for(val) {
+  // eslint-disable-next-line no-plusplus
+  for (let i = 0; i < val; i++) {
+    speakers_join.innerHTML += `
+        <div class="img_join_1" id="${speaker.id[i * 2]}">
+          <div class="card_speaker">
+            <img src="${speaker.img[i * 2]}" alt="${speaker.description_icon[i * 2]}">
+            <div class="text_speakers">
+              <h4>${speaker.name[i * 2]}</h4>
+              <h3>${speaker.description[i * 2]}</h3>
+              <p>${speaker.text[i * 2]}</p>    
+            </div>
+          </div>
+          <div class="card_speaker">
+            <img src="${speaker.img[i * 2 + 1]}" alt="${speaker.description_icon[i * 2 + 1]}">
+            <div class="text_speakers">
+              <h4>${speaker.name[i * 2 + 1]}</h4>
+              <h3>${speaker.description[i * 2 + 1]}</h3>
+              <p>${speaker.text[i * 2 + 1]}</p>   
+            </div>
+          </div>
+        </div>
+        `;
+  }
 }
+speakers_for(3);
