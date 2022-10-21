@@ -3,20 +3,29 @@
   background-size: auto;
   background-position: center top;
   background-repeat: no-repeat;
-  width: 100%;
+  height: 85vh;
+  padding: 20rem;
+}
+
+.welcome h1 {
+  font-size: 10rem;
+  padding: 0;
+}
+.message {
+  padding: 1rem;
+  margin-right: 50rem;
 }
 
 .hello_w {
   width: 70%;
   height: auto;
-  text-align: center;
-  margin: auto auto auto;
-  padding-top: 7rem;
+  text-align: start;
 }
 
 .hello {
   color: rgb(239, 81, 60);
   line-height: 2rem;
+  padding: 0;
 }
 
 .menu_logo {
@@ -48,6 +57,8 @@
 
 .linksb {
   color: #ec5242;
+  border-color: #ec5242;
+  border-width: .5rem;
 }
 
 .links {
@@ -58,27 +69,24 @@
   padding: 1rem 1.2rem;
 }
 
+
 .main_program {
   flex-direction: row;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .program_card {
-  width: 19.9%;
-  gap: 0.5rem;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.main_program_desktop {
-  display: block;
-  width: 100%;
-}
-
-.main_program_mobile {
-  display: none;
+  gap: 0.3rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right:.1rem ;
+  flex-direction: column;
 }
 
 .join {
+  padding-left: 200px;
+  padding-right: 200px;
   display: flex;
   flex-direction: column;
 }
@@ -141,8 +149,30 @@
 }
 
 .info {
-  font-weight: normal;
-  font-size: 2.5rem;
+  font-weight: bold;
+  font-size: 2rem;
   color: black;
-  text-align: center;
+  text-align: left;
 }
+
+.program_button {
+  display: none;
+}
+.whole {
+  display: block;
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 60px;
+}
+#Programs {
+  background-image: url(programs.jpeg);
+  background-color: rgb(39, 42, 50);
+  background-repeat: repeat; 
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.join {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+

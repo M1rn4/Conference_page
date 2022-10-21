@@ -18,19 +18,34 @@ header {
   background-repeat: no-repeat;
 }
 
+footer {
+  background-color: #D3D3D3;
+  height: 20rem;
+}
+
 p {
   margin-block-start: 1em;
   margin-block-end: 1em;
-  font-size: 1.4rem;
 }
 
 .welcome {
   background: url(mobile_intro_bg.png);
-  background-size: auto;
+  background-size: 100%;
   background-position: center top;
   background-repeat: no-repeat;
   width: 100%;
-  height: auto;
+  height: 60vh;
+  text-align:left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.welcome h1 {
+  font-size: 7rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .menu_logo {
@@ -146,9 +161,9 @@ p {
 .message {
   border: 0.4rem solid rgb(255, 255, 255);
   background-color: rgb(247, 247, 248);
-  width: calc(100% - 2.5em);
   margin-left: 1rem;
-  text-align: center;
+  text-align: left;
+  font-size: 1.5rem;
 }
 
 .message p {
@@ -161,7 +176,6 @@ h1 {
   margin-bottom: 1rem;
   margin-top: 1rem;
   font-weight: bold;
-  font-size: 3.5rem;
 }
 
 h2 {
@@ -203,72 +217,48 @@ h5 {
 }
 
 .main_program {
-  background-color: #272a31;
-  background-repeat: no-repeat;
-  border-color: #272a31;
-  border-width: 40px;
-  border-style: solid;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
 }
 
 .program_card {
   background-color: rgba(90, 88, 88, 0.392);
   display: flex;
   justify-content: space-around;
-  align-items: center;
   gap: 2rem;
-  width: 100%;
   margin-bottom: 1rem;
   padding: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  align-items: center;
 }
 
 .program_card p {
-  width: max-content;
-  color: white;
+  color: #D3D3D3;
   padding-left: 0.5rem;
   flex: 1;
+  font-size: 1.5rem;
+  text-align: start;
 }
 
-.main_program_button {
-  background-color: #d3d3d3;
-  border-color: #d3d3d3;
-  border-width: 2rem;
-  border-style: solid;
-  align-content: center;
+.program_card h5 {
+  text-align: center;
 }
 
 .link_program {
-  background-color: #272a31;
-  border-width: 2rem;
-  border-style: solid;
   color: #272a31;
   text-align: center;
   font-weight: 600;
   font-size: 2rem;
   width: 100%;
-}
-
-.link_program a {
-  text-decoration: none;
-  color: #fff;
+  padding: 10px;
 }
 
 .link_program h3 {
   margin-top: 2rem;
   font-size: 2.5rem;
   font-weight: bold;
-}
-
-.main_program_desktop {
-  display: none;
-}
-
-.main_program_mobile {
-  display: block;
-  width: 100%;
 }
 
 .join {
@@ -318,20 +308,21 @@ h5 {
 .hello {
   color: rgb(239, 81, 60);
   line-height: 20px;
-  font-size: 24px;
+  font-size: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .hello_w {
   text-align: left;
-  margin-left: 2rem;
 }
 
+
 .info {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 1.4rem;
   width: 90%;
   display: inline-block;
-  text-align: left;
+  text-align: center;
   margin-bottom: 0.4rem;
   margin-left: 2rem;
   letter-spacing: 0;
@@ -405,4 +396,10 @@ h5 {
 
 .disaper {
   display: none;
+}
+.whole {
+  display: none;
+}
+#Programs {
+ background-color: #272a31; 
 }
