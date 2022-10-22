@@ -78,9 +78,9 @@ footer p {
   border-color: #ec5242;
   border-width: 0.3rem;
   font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   padding: 1rem;
-  padding-top: 0.3rem;
-  margin-top: 0;
 }
 
 .links {
