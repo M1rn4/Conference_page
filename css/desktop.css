@@ -1,3 +1,12 @@
+footer {
+  background-color: white;
+  padding-top: 8rem;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
 .welcome {
   background: url(main_big.png);
   background-size: auto;
@@ -11,9 +20,10 @@
   font-size: 10rem;
   padding: 0;
 }
+
 .message {
   padding: 1rem;
-  margin-right: 50rem;
+  margin-right: 5rem;
 }
 
 .hello_w {
@@ -35,16 +45,18 @@
 .nav-menu {
   display: flex;
   flex-direction: row;
-  gap: 0.8rem;
+  gap: 0.1rem;
   justify-content: space-between;
   background-color: white;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .nav-menu-ul {
+  gap: 3rem;
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .nav-menu-ul a {
@@ -55,10 +67,20 @@
   color: #272a31;
 }
 
+.links a {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
 .linksb {
+  background-color: white;
   color: #ec5242;
   border-color: #ec5242;
-  border-width: .5rem;
+  border-width: 0.3rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  padding-top: 0.3rem;
+  margin-top: 0;
 }
 
 .links {
@@ -66,27 +88,46 @@
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
-  padding: 1rem 1.2rem;
+  padding: 1rem 0.3rem;
+  margin-top: 2rem;
 }
-
 
 .main_program {
   flex-direction: row;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
 }
 
 .program_card {
-  gap: 0.3rem;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-right:.1rem ;
   flex-direction: column;
+  margin-bottom: 1rem;
+  padding: 3rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  align-items: center;
+  flex: 1;
 }
 
-.join {
-  padding-left: 200px;
-  padding-right: 200px;
+.program_card p {
+  color: #d3d3d3;
+  padding-left: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+  width: 10rem;
+}
+
+.program_card h5 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  padding-right: 0;
+  width: 10rem;
+}
+
+.Join {
   display: flex;
   flex-direction: column;
 }
@@ -129,6 +170,7 @@
   display: block;
   background: #272a31;
   color: white;
+  padding-right: 20rem;
 }
 
 .media ul {
@@ -158,21 +200,47 @@
 .program_button {
   display: none;
 }
+
 .whole {
   display: block;
   color: white;
   text-decoration: underline;
-  margin-bottom: 60px;
-}
-#Programs {
-  background-image: url(programs.jpeg);
-  background-color: rgb(39, 42, 50);
-  background-repeat: repeat; 
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.join {
-  padding-left: 200px;
-  padding-right: 200px;
+  margin-bottom: 6rem;
 }
 
+#Programs {
+  background-image: url(pattern_bg.png);
+  background-color: rgb(39, 42, 50);
+  background-repeat: repeat;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.speakers {
+  padding-left: 12em;
+  padding-right: 12em;
+}
+
+.Sponsor li {
+  font-size: 4rem;
+}
+
+.h2-parner {
+  font-size: 4rem;
+}
+
+.footer_img img {
+  width: 25rem;
+}
+
+.footer_mobile {
+  display: none;
+}
+
+.footer_desktop {
+  display: block;
+}
+
+.card_speaker img {
+  height: fit-content;
+}
